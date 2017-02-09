@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "An Environment extension of t-motion-sensor, which uses the jira-connector package, transforming a Jira project into an environment which can be monitored and integrated with Notifications.",
   "main": "main.js",
+  "dependencies": {
+    "jira-connector": "latest"
+  },
   "scripts": {
     "test": "test"
   },
